@@ -1,0 +1,113 @@
+form {
+    width: 93%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    display: block;
+    margin: 20px auto;
+    width: 70%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 39px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 22px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+  a {
+    display: block;
+    padding: 21px;
+    margin-top: 20px;
+    font-size: 25px;
+    color: #000;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #4CAF50;
+  }
+  
+
+  #d1{
+    border: 1px solid black;
+    border-radius: 15px;
+    font-size: 2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: black 10px 15px 17px -12px;
+    background-color: #f4f4eb;
+    width: 50%;
+    margin: auto;
+  }
+
+
+  body{
+    margin: 80px;
+    background-color: #bdbebd;
+  }
+
+
+
+
+
+  @media only screen and (max-width: 1200px) {
+    body {
+      background-color: lightblue;
+    }
+
+    form{
+      width: 60%;
+    }
+
+    #d1{
+      width: 91%;
+  }
+  }
+
+
+  @media only screen and (max-width: 800px) {
+
+    form{
+      width: 65%;
+    }
+
+    #d1{
+      width: 91%;
+  }
+  }
+
+
+  @media only screen and (max-width: 600px) {
+    body {
+      margin: 26px;
+    }
+
+    form{
+      width: 65%;
+    }
+
+    #d1{
+      width: 91%;
+  }
+  }

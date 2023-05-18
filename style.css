@@ -1,0 +1,23 @@
+:root{
+	--clr-gray: #656565;
+	--clr-dark: #324364;
+}
+body
+{
+    justify-content: center;
+    display: flex;
+}
+form{
+    justify-content: center;
+    border: 2px solid aqua;
+}
+input {
+	color: var(--clr-gray);
+	border-radius: 0.75em;
+	border: 1px solid var(--clr-dark);
+	padding: 0.75em 1em;
+}
+
+input:focus {
+	outline: none;
+}
